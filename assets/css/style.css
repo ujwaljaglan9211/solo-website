@@ -1,6 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+  --primary: #FF6E30;
+  --secondary: #748FB5;
+  --dark : #1E252B;
+  --light: #EEEEEE;
+  --white: #ffffff;
+}
 body{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  background: var(--dark);
+}
+.primary{
+  color: var(--primary) !important;
+}
+.secondary{
+  color: var(--secondary) !important;
+}
+.dark{
+  color: var(--dark) !important;
+}
+.light{
+  color: var(--light) !important;
+}
+.white{
+  color: var(--white) !important;
+}
+.navbar-brand img{
+  width: 140px;
+}
+.navbar-nav .nav-item .nav-link{
+  color: var(--light);
+  margin: 20px 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item.active .nav-link{
+  color: var(--primary);
+}
+.navbar-nav.login-signup .nav-link.signup{
+  background: var(--primary);
+  border-radius: 15px;
+  padding: 10px 25px;
+  color: var(--white);
+}
+.navbar-nav.login-signup .nav-link.signup:hover{
+  background: var(--white);
+  border-radius: 15px;
+  padding: 10px 25px;
+  color: var(--primary);
 }

@@ -170,6 +170,14 @@ body{
 .keep-all-together .counter .description .badge{
   background: var(--primary);
 }
+/* keep all it together ends here */
+/* fast-simple-effortless starts here */
+.fast-simple-effortless{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+/* fast-simple-effortless ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

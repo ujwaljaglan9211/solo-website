@@ -111,3 +111,9 @@ body{
   max-width: 950px
 }
 /* landing screen ends here */
+/* partners screen starts here */
+.partners{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+/* partners screen ends here */

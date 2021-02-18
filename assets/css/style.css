@@ -3,7 +3,7 @@
   --primary: #FF6E30;
   --secondary: #748FB5;
   --dark : #1E252B;
-  --light: #EEEEEE;
+  --light: #6E757C;
   --white: #ffffff;
 }
 body{
@@ -26,6 +26,19 @@ body{
 }
 .white{
   color: var(--white) !important;
+}
+.button{
+  display: inline-block;
+  padding: 10px 25px;
+  color: var(--white);
+  background: var(--primary);
+  border-radius: 15px;
+}
+.button:hover{
+  color: var(--primary);
+  background: var(--white);
+  text-decoration: none;
+
 }
 .navbar-brand img{
   width: 140px;
@@ -51,4 +64,43 @@ body{
   border-radius: 15px;
   padding: 10px 25px;
   color: var(--primary);
+}
+/* home landing screen css starts here*/
+.landing-screen{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.landing-screen .title{
+  width: 70%;
+}
+.landing-screen .title h1{
+  font-weight: bolder;
+  font-size: 52px;
+  letter-spacing: 2px;
+}
+.landing-screen .cta .how-it-works{
+  color: var(--light);
+  background: transparent;
+  border: 2px solid var(--light);
+}
+.landing-screen .cta .how-it-works:hover{
+  color: var(--primary);
+  background: transparent;
+  border: 2px solid var(--primary);
+}
+.landing-screen .figures-1 {
+  top: 35%;
+  right: 32%;
+  width: 350px;
+}
+.landing-screen .figures-2 {
+  width: 500px;
+  left: 62%;
+  z-index: 1;
+  top: 33%;
+}
+.landing-screen .figures-3 {
+  top: 25%;
+  right: 0;
+  max-width: 950px
 }

@@ -99,6 +99,11 @@ body{
   right: 32%;
   width: 350px;
 }
+.landing-screen .figures-1 img{
+  animation: moveCycle 2s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.1s;
+}
 .landing-screen .figures-2 {
   width: 500px;
   left: 62%;
@@ -117,3 +122,90 @@ body{
   padding-bottom: 160px;
 }
 /* partners screen ends here */
+/* keep all it together starts here */
+.keep-all-together{
+  padding-top: 160px;
+  background: var(--white);
+}
+.keep-all-together .illustration2 {
+  left: 30%;
+  top: -30%;
+}
+.keep-all-together .illustration2 img{
+  animation: bounceUp 3s infinite;
+}
+.keep-all-together .illustration3 {
+  left: 0;
+  top: 0;
+}
+.keep-all-together .illustration3 img{
+  animation: bounceUp 5s infinite;
+}
+.keep-all-together .illustration4 {
+  right: 0;
+  top: 0;
+}
+.keep-all-together .illustration4 img{
+  animation: bounceUp 5s infinite;
+}
+.keep-all-together .cta .schedule-demo{
+  color: var(--light);
+  background: transparent;
+  border: 2px solid var(--light);
+}
+.keep-all-together .cta .schedule-demo:hover{
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.keep-all-together .title h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.keep-all-together .counter{
+  background: var(--dark);
+}
+.keep-all-together .counter .number h2{
+  font-size: 38px;
+}
+.keep-all-together .counter .description .badge{
+  background: var(--primary);
+}
+@keyframes bounceUp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes moveCycle {
+  0% {
+    transform: translate(0px,0px);
+  }
+  25% {
+    transform: translate(-5px,5px);
+  }
+  50% {
+    transform: translate(-15px,15px);
+  }
+  75% {
+    transform: translate(-30px,30px);
+  }
+  100% {
+    transform: translate(-50px,50px);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

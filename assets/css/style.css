@@ -282,6 +282,51 @@ body{
   left: -10px;
 }
 /* app features ends here */
+/* history screen starts here */
+.history .container{
+  padding: 60px 50px;
+}
+.history .quality__bg {
+  height: 100%;
+}
+.history .quality__bg::after{
+  opacity: 0 !important;
+}
+.history .intro span{
+  text-transform: uppercase;
+}
+.history .title h3{
+  font-size: 40px;
+}
+.history .cta a{
+  color: var(--white);
+  background: transparent;
+  border: 2px solid var(--white);
+}
+.history .cta a:hover{
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.history .illustration .figure1 img{
+  width: 680px;
+}
+.history .illustration .figure2{
+  top: -25%;
+  left: 25%;
+}
+.history .illustration .figure2 img{
+  width: 200px;
+  animation: bounceUp 4s infinite;
+}
+.history .illustration .figure3 {
+  top: -5%;
+  right: -25%;
+}
+.history .illustration .figure3 img{
+  width: 250px;
+  animation: bounceUp 3s infinite;
+}
+/* history screen ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

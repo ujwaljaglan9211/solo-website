@@ -176,7 +176,27 @@ body{
   padding-top: 160px;
   padding-bottom: 160px;
 }
-
+.fast-simple-effortless .steps::after{
+  content: '';
+  width: 0;
+  height: 240px;
+  position: absolute;
+  border: 1px solid var(--secondary);
+  top: 0;
+  right: 0
+}
+.fast-simple-effortless .steps:last-child:after{
+  display: none;
+}
+.fast-simple-effortless .step-img{
+  min-height: 60px;
+}
+.fast-simple-effortless .badge span{
+  background: var(--light);
+  padding:10px;
+  display: inline-block;
+  border-radius: 15px;
+}
 /* fast-simple-effortless ends here */
 @keyframes bounceUp {
   0% {

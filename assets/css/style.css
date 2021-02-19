@@ -327,6 +327,32 @@ body{
   animation: bounceUp 3s infinite;
 }
 /* history screen ends here */
+/* options screen starts here */
+.options{
+  padding: 160px 0px;
+}
+.options .option{
+  padding: 10px;
+  min-height: 300px;
+}
+.options .option-img img {
+  min-height: 50px;
+}
+.options .option .title{
+  min-height: 100px;
+  max-width: 70%;
+}
+.options .option .title::before{
+  content: '';
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  border-bottom: 2px solid var(--secondary);
+}
+.options .option .description{
+  max-width: 80%;
+}
+/* options screen ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

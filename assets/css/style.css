@@ -123,9 +123,45 @@ body{
 }
 /* partners screen ends here */
 /* keep all it together starts here */
-.keep-all-together{
+.keep-all-together .container{
   padding-top: 160px;
-  background: var(--white);
+}
+.quality__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  background: #2C353D;
+  border-radius: 24px;
+  z-index: -1;
+}
+.quality__bg:before {
+  top: -280px;
+  left: -280px;
+  width: 560px;
+  height: 560px;
+  opacity: 0.6;
+  -webkit-filter: blur(278.261px);
+  filter: blur(278.261px);
+}
+.quality__bg:after {
+  right: -194px;
+  bottom: -181px;
+  width: 390px;
+  height: 390px;
+  -webkit-filter: blur(160px);
+  filter: blur(160px);
+  opacity: 0.6;
+}
+.quality__bg:before, .quality__bg:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(314.85deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+  background: -o-linear-gradient(314.85deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
+  background: linear-gradient(135.15deg, #AE80DC 1.17%, #DC83C3 31.88%, #8084DC 65.46%);
 }
 .keep-all-together .illustration2 {
   left: 30%;
@@ -162,13 +198,16 @@ body{
   letter-spacing: 2px;
 }
 .keep-all-together .counter{
-  background: var(--dark);
+  background: linear-gradient(90.33deg, #FEA989 0.02%, #99B4DB 98.92%);
 }
 .keep-all-together .counter .number h2{
-  font-size: 38px;
+  font-size: 40px;
 }
 .keep-all-together .counter .description .badge{
   background: var(--primary);
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px 15px;
 }
 /* keep all it together ends here */
 /* fast-simple-effortless starts here */
@@ -176,17 +215,15 @@ body{
   padding-top: 160px;
   padding-bottom: 160px;
 }
-.fast-simple-effortless .steps::after{
-  content: '';
-  width: 0;
-  height: 240px;
-  position: absolute;
-  border: 1px solid var(--secondary);
-  top: 0;
-  right: 0
+.fast-simple-effortless .title span{
+  text-transform: uppercase;
 }
-.fast-simple-effortless .steps:last-child:after{
-  display: none;
+.fast-simple-effortless .title h2{
+  font-size: 40px;
+}
+.fast-simple-effortless .steps:not(:last-child){
+  height: 240px;
+  border-right: 2px solid var(--secondary);
 }
 .fast-simple-effortless .step-img{
   min-height: 60px;
@@ -198,6 +235,53 @@ body{
   border-radius: 15px;
 }
 /* fast-simple-effortless ends here */
+/* app features starts here */
+.app-features{
+  padding-bottom: 160px;
+}
+.app-features .title span{
+  text-transform: uppercase;
+}
+.app-features .title h2{
+  font-size: 40px;
+}
+.app-features .illustration .figure1{
+  top: 50%;
+  left: -85px;
+}
+.app-features .illustration .figure2{
+  bottom: -30px;
+  left: 70px;
+}
+.app-features .advantages-content .marker {
+  margin-left: -140px;
+}
+.app-features .advantages-content .cta a{
+  color: var(--white);
+  background: transparent;
+  border: 2px solid var(--white);
+}
+.app-features .advantages-content .cta a:hover{
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.app-features .illustration.second .figure1 {
+  top: 25%;
+  left: unset;
+  right: 0;
+}
+.app-features .illustration.second .figure1 img{
+  width: 78px;
+}
+.app-features .illustration.second .figure2 {
+  bottom: -60px;
+  left: 70px;
+}
+.app-features .illustration.third .figure1 {
+  top: 25%;
+  left: -10px;
+}
+/* app features ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

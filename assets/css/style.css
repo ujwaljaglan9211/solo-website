@@ -353,6 +353,62 @@ body{
   max-width: 80%;
 }
 /* options screen ends here */
+/* amazing features starts here */
+.amazing-features{
+  padding-bottom: 160px;
+}
+.amazing-features .illustration{
+  margin-bottom: 30px;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 128px;
+  -webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+  background: var(--light);
+  border-radius: 24px;
+}
+.amazing-features .title h3{
+  font-size: 40px;
+}
+.amazing-features .cta a{
+  color: var(--white);
+  background: transparent;
+  border: 2px solid var(--white);
+}
+.amazing-features .cta a:hover{
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.amazing-features .illustration2 {
+  top: 25%;
+  left: 10%;
+}
+.amazing-features .illustration2 img{
+  width: 200px;
+  animation: bounceUp 3s infinite;
+}
+.amazing-features .illustration3 {
+  top: 5%;
+  right: 15%;
+}
+.amazing-features .illustration3 img{
+  width: 250px;
+  animation: bounceUp 4s infinite;
+}
+.amazing-features .row-illustration3 .illustration1 img{
+  max-width: 660px;
+}
+.amazing-features .row-illustration3 .illustration2 {
+  top: 0%;
+  left: 15%;
+}
+/* amazing features ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

@@ -409,6 +409,56 @@ body{
   left: 15%;
 }
 /* amazing features ends here */
+/* productivity screen starts here */
+.productivity .container{
+  padding: 160px 0px;
+  box-shadow: #2C353D;
+}
+.productivity .quality__bg::after{
+  opacity: 0;
+}
+.productivity .illustration .figure1 {
+  top: 15%;
+  left: 0;
+}
+.productivity .illustration .figure1 img{
+  max-width: 650px;
+}
+.productivity .illustration .figure2 {
+  top: -10%;
+  left: -15%;
+}
+.productivity .illustration .figure2 img{
+  max-width: 872px;
+}
+.productivity .content{
+  margin-top: 150px;
+}
+.productivity .content .intro span{
+  text-transform: uppercase;
+}
+.productivity .content .cta a{
+  color: var(--white);
+  background: transparent;
+  border: 2px solid var(--white);
+}
+.productivity .content .cta a:hover{
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.productivity .productivity-item:not(:last-child) {
+  border-bottom: 2px solid var(--light);
+}
+.productivity .productivity-item .productivity-img{
+  width: 25%;
+}
+.productivity-item .productivity-description h5{
+  color: var(--white);
+}
+.productivity-item .productivity-description p{
+  color: var(--light);
+}
+/* productivity screen ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

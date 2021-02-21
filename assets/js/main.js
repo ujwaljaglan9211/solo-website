@@ -1,6 +1,7 @@
 (function ($) {
   'use strict';
   $(document).ready(function(){
+    // counter
     $('.statistic-counter').each(function () {
       $(this).prop('Counter',0).animate({
         Counter: $(this).text()
@@ -47,6 +48,11 @@
           }
         }
       ]
+    });
+    // aos library initialize
+    AOS.init({
+      duration: 800,
+      easing: "ease-in-out"
     });
   });
 })(jQuery);

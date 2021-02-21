@@ -14,29 +14,36 @@
     });
     // testimonials slider
     $('.testimonials-slider').slick({
+      mobileFirst:true,//add this one
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
+      infinite:true,
       dots: false,
-      arrows: false,
-      autoplaySpeed: 2000,
+      arrows: true,
+      prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+      nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+      autoplaySpeed: 3000,
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 1024,
           settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         },
         {
           breakpoint: 480,
           settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         }
       ]

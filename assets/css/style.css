@@ -477,6 +477,45 @@ body{
   font-size: 22px;
   font-weight: bolder;
 }
+.testimonials .testimonials-slider .slick-arrow{
+  position: absolute;
+  background: none;
+  color: var(--light);
+  border: none;
+  bottom: -100px;
+  font-size: 34px;
+}
+.testimonials .testimonials-slider .slick-arrow:hover{
+  color: var(--white);
+}
+.testimonials .testimonials-slider .slick-prev {
+  left: 40%;
+}
+.testimonials .testimonials-slider .slick-prev::after {
+  display: inline-block;
+  content: "";
+  border-top: 3px solid var(--light);
+  width: 3rem;
+  margin-bottom: 0.6rem;
+  margin-left: -0.6rem;
+}
+.testimonials .testimonials-slider .slick-prev:hover::after {
+  border-top: 3px solid var(--white);
+}
+.testimonials .testimonials-slider .slick-next {
+  right: 40%;
+}
+.testimonials .testimonials-slider .slick-next::after {
+  display: inline-block;
+  content: "";
+  border-top: 3px solid var(--light);
+  width: 3rem;
+  margin-bottom: 0.6rem;
+  margin-left: -3.3rem;
+}
+.testimonials .testimonials-slider .slick-next:hover::after {
+  border-top: 3px solid var(--white);
+}
 /* testimonials ends here */
 @keyframes bounceUp {
   0% {

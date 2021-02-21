@@ -544,6 +544,33 @@ body{
   max-width: 250px;
 }
 /* solo today screen ends here */
+/* footer starts here */
+.footer .footer-logo img{
+  max-width: 150px;
+}
+.footer .footer-border{
+  border-bottom: 2px solid var(--secondary);
+}
+.footer .footer-menu li a{
+  text-decoration: none;
+}
+.footer .footer-menu li a:hover{
+  color: var(--primary) !important;
+}
+.footer .copyright p a{
+  color: var(--light);
+  text-decoration: underline;
+}
+.footer .copyright p a:hover{
+  color: var(--primary);
+}
+.footer .social-icons li a{
+  font-size: 18px;
+}
+.footer .social-icons li a:hover i{
+  color: var(--primary);
+}
+/* footer ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

@@ -449,9 +449,6 @@ body{
 .productivity .productivity-item:not(:last-child) {
   border-bottom: 2px solid var(--light);
 }
-.productivity .productivity-item .productivity-img{
-  width: 25%;
-}
 .productivity-item .productivity-description h5{
   color: var(--white);
 }
@@ -459,6 +456,28 @@ body{
   color: var(--light);
 }
 /* productivity screen ends here */
+/* testimonials starts here */
+.testimonials{
+  padding-bottom: 160px;
+}
+.testimonials .testimonial:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.testimonials .title h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.testimonials .testimonial .rating .fa-star{
+  color: var(--primary);
+  font-size: 22px;
+}
+.testimonials .testimonial .comment p{
+  font-size: 22px;
+  font-weight: bolder;
+}
+/* testimonials ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

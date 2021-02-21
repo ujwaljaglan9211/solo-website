@@ -517,6 +517,33 @@ body{
   border-top: 3px solid var(--white);
 }
 /* testimonials ends here */
+/* solo today screen starts here */
+.solo-today .container{
+  padding-bottom: 160px;
+}
+.solo-today .quality__bg::after{
+  opacity: 0;
+}
+.solo-today .content{
+  padding: 100px;
+}
+.solo-today .content .title h2{
+  font-size: 60px;
+}
+.solo-today .illustration .figure1{
+  margin-top: 150px;
+}
+.solo-today .illustration .figure1 img{
+  max-width: 666px;
+}
+.solo-today .illustration .figure2{
+  top: -25%;
+  left: 43%;
+}
+.solo-today .illustration .figure2 img{
+  max-width: 250px;
+}
+/* solo today screen ends here */
 @keyframes bounceUp {
   0% {
     transform: translateY(0px);

@@ -15,7 +15,6 @@
     });
     // testimonials slider
     $('.testimonials-slider').slick({
-      mobileFirst:true,//add this one
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
@@ -51,7 +50,7 @@
     });
     // aos library initialize
     AOS.init({
-      duration: 800,
+      duration: 500,
       easing: "ease-in-out"
     });
     // cross icon for mobile menu

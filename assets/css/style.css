@@ -615,9 +615,9 @@ body{
     background: var(--white);
     margin: 0;
   }
-  .header .navbar .collapse.navbar-collapse{
+  /* .header .navbar .collapse.navbar-collapse{
     height: 100vh;
-  }
+  } */
   .navbar-light .navbar-toggler-icon.close{
     background-image: url(https://img.icons8.com/ios-glyphs/24/000000/macos-close.png) !important; 
     } 
@@ -635,21 +635,34 @@ body{
     right: 32%;
     max-width: 100%;
     top: 10%;
+    z-index: -1;
   }
   .landing-screen .figures-1 {
     top: 20%;
     max-width: 100%;
+    z-index: -1;
   }
   .landing-screen .figures-2 {
     max-width: 50%;
     right: 25%;
     top: 25%;
+    z-index: -1;
+  }
+  .landing-screen .cta .try-it-free{
+    margin-bottom: 20px
+  }
+  .partners {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .partners .title{
     padding: 0px 10px;
   }
+  .keep-all-together .container {
+    padding-top: 100px;
+  }
   .keep-all-together .illustration1 img{
-    max-width: 500px;
+    max-width: 100%;
   }
   .keep-all-together .illustration2 {
     left: 25%;
@@ -658,12 +671,16 @@ body{
   .keep-all-together .illustration2 img{
     max-width: 135px;
   }
-  .keep-all-together .illustration2 {
-    left: 32%;
-    top: -20%;
+  .keep-all-together .illustration3 {
+    left: -5%;
+    top: 0;
   }
   .keep-all-together .illustration3 img{
     max-width: 150px;
+  }
+  .keep-all-together .illustration4 {
+    right: 5%;
+    top: 0;
   }
   .keep-all-together .illustration4 img{
     max-width: 150px;
@@ -674,6 +691,10 @@ body{
   .fast-simple-effortless {
     padding-top: 60px;
     padding-bottom: 0;
+  }
+  .fast-simple-effortless .steps{
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
   .fast-simple-effortless .steps:not(:last-child) {
     border-right: none;
@@ -743,14 +764,14 @@ body{
     height: 100%;
   }
   .productivity .illustration .figure2 {
-    top: 10%;
+    top: 0;
     left: -15%;
   }
   .productivity .illustration .figure1 {
-    top: 20%;
+    top: 10%;
   }
   .productivity .content {
-    margin-top: 100px;
+    margin-top: 200px;
   }
   .testimonials {
     padding-top: 60px;
@@ -764,6 +785,9 @@ body{
   .solo-today .content {
     padding: 20px;
   }
+  .solo-today .illustration .figure1 {
+    margin-top: 50px;
+  }
   .solo-today .illustration .figure1 img {
     max-width: 100%;
   }
@@ -773,5 +797,34 @@ body{
   }
   .solo-today .illustration .figure2 img {
     max-width: 135px;
+  }
+  .footer .mobile-store{
+    padding: 15px !important;
+  }
+  .footer .footer-menu{
+    padding: 15px !important;
+  }
+}
+/* min-width 768px and max width 1024px */
+@media (min-width:768px) and (max-width:1024px){
+  .landing-screen .illustration {
+    padding-bottom: 375px;
+  }
+  .landing-screen .figures-3 {
+    right: 40%;
+  }
+  .amazing-features .row-illustration1 .col-md-2.mt-5 {
+    margin-top: 3rem !important;
+  }
+  .productivity .illustration{
+    padding-bottom: 375px;
+  }
+  .productivity .content {
+    margin-top: 25%;
+  }
+  .footer .footer-menu {
+    padding: 0 !important;
+    text-align: right;
+    margin: 0 auto;
   }
 }

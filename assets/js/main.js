@@ -54,5 +54,9 @@
       duration: 800,
       easing: "ease-in-out"
     });
+    // cross icon for mobile menu
+    $('.navbar-toggler').click(function() {
+      $('.navbar-toggler-icon').toggleClass('close');
+    });
   });
 })(jQuery);

@@ -609,3 +609,169 @@ body{
     transform: rotate(360deg);
   }
 }
+/* max-width 768px css starts here */
+@media (max-width: 768px){ 
+  .header{
+    background: var(--white);
+    margin: 0;
+  }
+  .header .navbar .collapse.navbar-collapse{
+    height: 100vh;
+  }
+  .navbar-light .navbar-toggler-icon.close{
+    background-image: url(https://img.icons8.com/ios-glyphs/24/000000/macos-close.png) !important; 
+    } 
+  .navbar-nav .nav-item .nav-link {
+    margin: 5px 0px;
+    padding: 10px;
+  }
+  .landing-screen {
+    padding-bottom: 0;
+  }
+  .landing-screen .illustration {
+    padding-bottom: 200px;
+  }
+  .landing-screen .figures-3 {
+    right: 32%;
+    max-width: 100%;
+    top: 10%;
+  }
+  .landing-screen .figures-1 {
+    top: 20%;
+    max-width: 100%;
+  }
+  .landing-screen .figures-2 {
+    max-width: 50%;
+    right: 25%;
+    top: 25%;
+  }
+  .partners .title{
+    padding: 0px 10px;
+  }
+  .keep-all-together .illustration1 img{
+    max-width: 500px;
+  }
+  .keep-all-together .illustration2 {
+    left: 25%;
+    top: -25%;
+  }
+  .keep-all-together .illustration2 img{
+    max-width: 135px;
+  }
+  .keep-all-together .illustration2 {
+    left: 32%;
+    top: -20%;
+  }
+  .keep-all-together .illustration3 img{
+    max-width: 150px;
+  }
+  .keep-all-together .illustration4 img{
+    max-width: 150px;
+  }
+  .keep-all-together .cta{
+    padding-bottom: 30px;
+  }
+  .fast-simple-effortless {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .fast-simple-effortless .steps:not(:last-child) {
+    border-right: none;
+  }
+  .app-features .illustration .figure1 {
+    top: 0;
+    left: -35px;
+  }
+  .app-features .illustration .figure2 {
+    top: 50%;
+    left: 0;
+  }
+  .history .illustration{
+    margin-top: 50px;
+  }
+  .history .illustration img{
+    max-width: 100%;
+  }
+  .history .illustration .figure2 {
+    top: 0;
+    left: 0;
+  }
+  .history .illustration .figure2 img {
+    max-width: 100px;
+  }
+  .history .illustration .figure3 {
+    top: 0;
+    right: 0;
+  }
+  .history .illustration .figure3 img {
+    max-width: 125px;
+  }
+  .options{
+    padding: 60px 0px;
+  }
+  .options .option{
+    text-align: center;
+  }
+  .options .option .title {
+    max-width: 100%;
+  }
+  .options .option .description {
+    max-width: 100%;
+  }
+  .amazing-features .row-illustration1 .col-md-2.mt-5{
+    margin-top: 0 !important;
+  }
+  .amazing-features .illustration2 img {
+    width: 125px;
+  }
+  .amazing-features .illustration3 img {
+    width: 150px;
+  }
+  .amazing-features .row-illustration3 .illustration1 img {
+    max-width: 100%;
+  }
+  .amazing-features .row-illustration3 .illustration1 {
+    margin-top: 85px;
+  }
+  .amazing-features .row-illustration3 .illustration2 {
+    top: 15%;
+  }
+  .productivity .container {
+    padding: 0;
+  }
+  .productivity .quality__bg {
+    height: 100%;
+  }
+  .productivity .illustration .figure2 {
+    top: 10%;
+    left: -15%;
+  }
+  .productivity .illustration .figure1 {
+    top: 20%;
+  }
+  .productivity .content {
+    margin-top: 100px;
+  }
+  .testimonials {
+    padding-top: 60px;
+  }
+  .testimonials .testimonials-slider .slick-prev {
+    left: 30%;
+  }
+  .testimonials .testimonials-slider .slick-next {
+    right: 30%;
+  }
+  .solo-today .content {
+    padding: 20px;
+  }
+  .solo-today .illustration .figure1 img {
+    max-width: 100%;
+  }
+  .solo-today .illustration .figure2 {
+    top: -20%;
+    left: 35%;
+  }
+  .solo-today .illustration .figure2 img {
+    max-width: 135px;
+  }
+}
